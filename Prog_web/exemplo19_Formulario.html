@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="Banco de dados " method="post">
+    <table width=100% height=100% center border="1" bordercolor="black">
+      <tr>
+        <td bgcolor="lightblue">
+          <h1 style="text-align: center;"><u>Formulário de Pessoa Juridica</u></h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Razão social:</label>
+          <input type="text" id="razao_Social" size="50" maxlength="50" placeholder="Digite a razão social"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label> CNPJ:</label>
+          <input type="tel" id="cnpj" size="50" maxlength="50" placeholder="XXX.XXX.XXX-XX">
+
+          <label> Insc. Est</label>
+          <input type="text" id="insc_est" size="50" maxlength="50" placeholder="Digite a inscrição estadual"><br>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Nome do Responsavel</label>
+          <input type="text" id="nome_responsavel" size="50" maxlength="50"
+            placeholder="Digite o nome do responsavel"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Cargo</label>
+          <select name="cargo">
+            <option>Proprietario</option>
+            <option>Gerente</option>
+            <option>Supervisor</option>
+            <option>Funcionario</option> <br>
+          </select>
+          <label>Departamento</label>
+          <select name="departamento">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Numero de Funcionario</label>
+          <input type="number" min="0" max="500">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Telefone</label>
+          <input type="tel" id="telefone" size="50" maxlength="50" placeholder="55(99)9xxxx-xxxx"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Site</label>
+          <input type="url" id="site" size="50" maxlength="50" placeholder="www.empresa.com.br"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Email</label>
+          <input type="email" id="email" size="50" maxlength="50" placeholder="Digite seu email"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Atividade Principal</label>
+          <textarea type="textarea" id="atividade_principal" rows="4" cols="50"
+            placeholder="Descreva a atividade principal da empresa" style="resize: none;"></textarea><br>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center">
+          <input type="reset" value="Limpar">
+          <input type="submit" value="Enviar">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>

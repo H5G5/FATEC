@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <!--action= endereço onde os dados serao enviados-->
+        <!--method = metodo de envio dos dados (post ou get)-->
+        <!--post = os dados nao aparecem na URL-->
+        <!--get = os dados aparecem na URL-->
+        <label> Nome: </label>
+        <input type="text" id="name" name="nome" size="50" maxlength="50" placeholder="Digite seu nome"
+            value="consumidor">
+    </form><br>
+    <!--type = tipo de entrada-->
+
+    <!--id e nome ide<ntifica a entrada-->
+    <!--size tamanho da caixa de texto-->
+    <!--maxlength tamanho maximo de caracteres-->
+    <!--placehold dica de texto que aparece dentro da caixa de texto, esse some quando começa a digitar-->
+    <!--value valor que aparece dentro da caixa de texto, esse nao some quando começa digitar-->
+    <label>Senha Provisoria </label>
+    <input type="password" id="senha" name="senha" size="5"><br>
+    <label>Sexo</label>
+    <input type="radio" name="sexo">maculino
+    <input type="radio" name="sexo">Femino
+    <input type="radio" name="sexo">Ainda nao sei
+    <input type="radio" name="sexo">Prefiro nao dizer
+    <input type="radio" name="sexo" checked>LGBTQITOFAS
+    <input type="radio" name="sexo">Pam
+    <label> Escolha seu curso:</label>
+    <select name="cursos"> <!--cauxa de combinação-->
+        <option>ADS</option><!--opçoes para escolha-->
+        <option>Gestão Empresarial</option>
+        <option>Projetos Mecanicos</option>
+        <option>Fabricação Mecanica</option>
+        <option>Mecatronica</option>
+    </select>
+    <BR>
+    <input type="checkbox" name="Spam" checked disabled>
+    Sim, quero recer spam<br><!--checked = marcado por padrão-->
+    <!--disable = desabilitado, nao pode ser alterado-->
+    <hr>
+    <input type="reset" value="Limpar"><!--botao para limpar o formulario-->
+    <input type="submit" value="Enviar"><!--botao para enviar o formulario-->
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body bgcolor="pink">
+  <form>
+    <h1>Formulario do aluno</h1>
+    <fieldset>
+      <!--AGRUPAMENTO DOS DADOS-->
+      <legend>Dados Pessoais</legend>
+      <!--TITULO DO AGRUPAMENTO-->
+      <label>Nome:</label>
+      <input type="text" name="nome" size="30" /><br />
+      <label>Idade</label>
+      <input type="number" name="Idade" size="3" min="0" max="120" />
+      <label>RA</label>
+      <input type="text" name="ra" size="10" /> <br />
+    </fieldset>
+    <fieldset>
+      <legend>Dados Escolares</legend>
+      <label>Cursos</label>
+      <select name="curos">
+        <optgroup label="Exatas">
+          <option>ADS</option>
+          <option>Mecatronica</option>
+        </optgroup>
+        <optgroup label="Humanas">
+          <option>Gestão Empresarial</option>
+          <option>Recursos Humanos</option>
+        </optgroup>
+      </select><br />
+    </fieldset>
+    <fieldset>
+      <legend>Dados adicionais</legend>
+      <label>Dados do incio de seu curso</label>
+      <input type="date" name="data_inicio" /><br />
+      <!--date,datetime-local,week-->
+      <label>Turno:</label>
+      <input type="radio" name="Turno" />Manhã
+      <input type="radio" name="Turno" />Tarde
+      <input type="radio" name="Turno" />Noite<br />
+      <label>Escolha sua cor favorita:</label>
+      <input type="color" name="cor" /><br />
+      <label>Escolha um mês ideial para suas ferias:</label>
+      <input type="month" name="mes`ferias" /><br />
+      <label>Informe o quanto você esta feliz:</label>
+      <input type="range" name="felicidade" min="0" max="10" /> <br />
+    </fieldset>
+    <input type="submit" value="Gravar" />
+    <input type="reset" value="Limpar" />
+  </form>
+</body>
+
+</html>
