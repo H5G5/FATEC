@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Exemplos de DIV">
+    </title>
+    <style>
+        /*Css interno*/
+        body {
+            background-color: aqua
+        }
+
+        #moldura {
+
+            background-color: rgb(20, 19, 19);
+        }
+
+        #topo {
+            background-color: rgb(255, 247, 0);
+            padding: 10px;
+            /*espaçamento interno*/
+        }
+
+        #navegação {
+            background-color: rgb(0, 255, 34);
+            width: 20%;
+            /*largura*/
+            float: left;
+            /*alinha a esquerda*/
+        }
+
+        #conteudo {
+            background-color: rgb(42, 134, 165);
+            width: 100%;
+            float: left;
+
+        }
+
+        #rodape {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            clear: both;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- DIVs divide a tela em contairners -->
+    <!-- Pode ser identificada pelo nome id ou class-->
+    <div id="moldura">
+
+        <div id="topo">
+            <img src="img/pastel.jgp.jpg" width="100px" height="100px">
+            <font size="6">Bem Vindo a Pastelaria da Fatec</font>
+        </div>
+
+        <div id="navegação">
+            <strong>MENU</strong>
+            <ul>
+                <li>Home</li>
+                <li>Cardapio</li>
+                <li>Sobre nós</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+
+        <div id="conteudo">
+            <img src="img/pastel2.jpg" width="100px" height="100px">
+        </div>
+
+        <div id="rodape">
+            <center>
+                <font size="4" color="white">
+                    Todos os direitos reservados - Fatec Mogi Mirim
+                </font>
+
+            </center>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

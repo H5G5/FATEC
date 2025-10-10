@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhando Imagem com Styte</title>
+
+    <style>
+        .direita {
+            float: right;
+            mangin-right: 50px;
+        }
+
+        .esquerda {
+            float: left;
+            mangin-left: 50px;
+        }
+
+        .centro {
+            display: block;
+            /*Imagem se comporta como bloco*/
+            margin-left: auto;
+            /*Divide a margem*/
+            margin-right: auto;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Alinhando imagem a direita </h2>
+    <img src="img/carro.png" class="direita">
+
+    <br style="clear: both;"> <!--limpa formatações-->
+
+    <h2>Alinhando imagem a Esquerda </h2>
+    <img src="img/carro.png" class="esquerda">
+
+    <br style="clear: both;"> <!--limpa formatações-->
+
+    <h2>Alinhando imagem a centro </h2>
+    <img src="img/carro.png" class="centro">
+
+</body>
+
+</html>
