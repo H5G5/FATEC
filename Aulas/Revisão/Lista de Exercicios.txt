@@ -1,0 +1,45 @@
+Lista de Exercícios
+Exercício 1: Vetor e Soma de Posições Pares
+ 
+Desenvolva um programa em C que manipule um vetor de 6 posições.
+Declare um vetor de inteiros chamado A com 6 posições.
+Peça ao usuário que insira 6 números inteiros para preencher o vetor A.
+Calcule a soma dos valores armazenados nas posições de índice par (0, 2 e 4) do vetor. Armazene o resultado em uma variável inteira e imprima essa soma na tela.
+Por fim, exiba cada valor do vetor A em uma nova linha.
+ 
+Exercício 2: Maior e Menor Elemento
+ 
+Crie um programa em C para encontrar os valores extremos em um vetor.
+Declare um vetor de inteiros com 10 posições.
+Preencha o vetor com valores fornecidos pelo usuário.
+Percorra o vetor para encontrar o maior e o menor elemento.
+Imprima na tela o valor do maior e do menor elemento encontrados.
+ 
+Exercício 3: Interseção de Vetores
+ 
+Escreva um programa que combine elementos de dois vetores em um terceiro.
+Declare dois vetores de inteiros, vetor1 e vetor2, ambos com 10 posições.
+Peça ao usuário para preencher os dois vetores.
+Crie um terceiro vetor, vetor_intersecao, para armazenar os elementos que aparecem em ambos os vetores (a interseção). Percorra os vetores vetor1 e vetor2 e adicione ao vetor_intersecao os elementos comuns.
+Exiba o vetor de interseção resultante.
+Observação: A regra original sobre a posição dos elementos na interseção é confusa. A interseção matemática não depende da ordem. Mantenha a lógica de adicionar os elementos comuns à medida que são encontrados, sem a necessidade de uma ordem específica.
+ 
+Exercício 4: Correção de Prova e Pontuação
+ 
+Faça um programa que simule a correção de uma prova de múltipla escolha.
+Declare uma matriz respostas_alunos de 5x10, onde cada linha representa um aluno e cada coluna, uma questão.
+Declare um vetor gabarito de 10 posições, que conterá as respostas corretas (caracteres 'a', 'b', 'c' ou 'd').
+Preencha a matriz de respostas com dados simulados ou fornecidos pelo usuário. Preencha o vetor gabarito da mesma forma.
+Compare as respostas de cada aluno com o gabarito. Para cada questão correta, o aluno recebe 1 ponto.
+Crie um vetor chamado pontuacao de 5 posições, onde cada posição armazena a pontuação total de um aluno.
+Imprima a pontuação final de cada um dos 5 alunos.
+ 
+Exercício 5: Soma de Colunas de uma Matriz
+ 
+Desenvolva um programa que manipule uma matriz e gere um novo vetor.
+Declare uma matriz de inteiros 3x3.
+Preencha a matriz com números inteiros fornecidos pelo usuário.
+Calcule a soma dos elementos de cada coluna da matriz.
+Armazene a soma de cada coluna em um vetor unidimensional de 3 posições.
+Exiba o vetor resultante que contém a soma de cada coluna.   Linguagem de Programacao-A1092-M-ANALISE E DESENV. DE SISTEMAS-163-20252
+ 
