@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curriculo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Defina a largura da barra lateral para 120px */
+
+.w3-sidebar {width: 120px;background: #222;}
+/* Adicione uma margem esquerda ao "conteúdo da página" que corresponda à largura da barra lateral (120px) */
+#main {margin-left: 120px}
+
+/* Remover margens do "conteúdo da página" em telas pequenas */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+
+</head>
+
+<body class="w3-black">
+
+<!-- Barra de ícones (barra lateral - oculta em telas pequenas) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Imagem do logo no canto superior esquerdo -->
+  <img src="img/my.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Home</p>
+  </a>
+  <a href="#Resumo" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>Resumo</p>
+  </a>
+  <a href="#Minhas experiencia" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Minhas experiencia</p>
+  </a>
+  <a href="#Formação Acadêmica" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>Formação Acadêmica</p>
+  </a>
+    <a href="#Contato" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>Contato</p>
+</nav>
+
+<!--Barra de navegação em telas pequenas (oculta em telas médias e grandes) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+   <a href="#" class="w3-bar-item w3-button">HOME</a>
+<a href="#Resumo" class="w3-bar-item w3-button">Resumo</a>
+<a href="#Minhas experiencia" class="w3-bar-item w3-button">Minhas experiência</a>
+<a href="#Formação Acadêmica" class="w3-bar-item w3-button">Formação Acadêmica </a>
+<a href="#Contato" class="w3-bar-item w3-button">Contato </a>
+
+  </div>
+</div>
+
+<!-- Conteúdo da página -->
+<div class="w3-padding-large" id="main">
+  <!-- Cabeçalho/Início -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Programador </span> e Analista.</h1>
+
+    
+    <img src="img/my2.png" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- Seção de Resumo -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="Resumo">
+    <h2 class="w3-text-light-grey">Gilberto Corrêa Fº</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Desenvolverdor web APaixonado por criar interfaces de usuário intuitvas e responsivas: Com experiencia em desenvolvimento front-end e back-end, busco sempre entregar soluções eficientes e inovadoras para desafios complexos.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Minhas Habilidades</h3>
+    <p class="w3-wide">Front-end</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Back-end</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Minhas experiencia</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+        
+    <!-- Grade de Habilidades -->
+    <h3 id="Habilidades" class="w3-padding-16 w3-text-light-grey">Habilidades</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Front-end</li>
+          <li class="w3-padding-16">HTML 5 E CSS3</li>
+          <li class="w3-padding-16">Java Script</li>
+          <li class="w3-padding-16">Responsividade (CSS)</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">Resolução de problemas</li>
+          </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Back-end</li>
+          <li class="w3-padding-16">C Puro</li>
+          <li class="w3-padding-16">Pyton</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">SQL</li>
+          <li class="w3-padding-16">Almogiritmos</li>
+          <li class="w3-padding-16">Arquitetura de computadores</li>
+
+
+        </ul>
+      </div>
+    <!-- Fim da grade -->
+    </div>
+    
+    <!-- Minhas experiencia front end -->
+    <h3 id="Minhas experiencia" class="w3-padding-24 w3-text-light-grey">Minhas experiencia</h3>  
+    <img src="img/tecsolut.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Tech Solutions.</span> Jan 2023 - Presente.</p><br>
+    <p>Desenvolvimento de novas funcionalidades ulilizando HTML, CSS e Java Scrit.</p><br>
+    <p>Manutenção e otimização de interfaces existentes.</p><br>
+     <p>Colaboração com a equipe de design para implementar layouts precisos.</p><br>
+     
+      <!-- Minhas experiencia -->
+    <img src="img/XYZ.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Agencia Digital XYZ </span> Ago 2022 - Dez 2022.</p><br>
+    <p>Criação de prototipos e wireframes para novos projetos.</p>
+     <p>Assistencia na condificção de paginas web com foco em acessibilidade.</p>
+  <!-- FIm  -->
+  </div>
+  
+  <!-- Formação Acadêmica Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="Formação Acadêmica">
+    <h2 class="w3-text-light-grey">Formação Acadêmica</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Faculdade de Tecnologia Arthur de azevedo (FATEC) 2025:</p>
+  </div>   
+
+ <div class="w3-padding-64 w3-content w3-text-grey" id="Contato">
+    <h2 class="w3-text-light-grey">Contato</h2>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Mogi Mirim, SP</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +55 19 9 7100-5185</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: gabebross5@gmail.com</p>
+        <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Linkedin: https://www.linkedin.com/in/gilberto-correa09</p>
+    </div><br>
+    
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required name="Assunto"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Menssagem 
+        </button>
+      </p>
+    </form>
+  <!-- FIm Formação Acadêmica -->
+  </div>
+</div>
+
+</body>
+</html>
